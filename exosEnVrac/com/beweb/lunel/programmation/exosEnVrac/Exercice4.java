@@ -22,21 +22,23 @@ package com.beweb.lunel.programmation.exosEnVrac;
  * 
  * @author cedriclavery
  * 
- * La valeur de la variable est de 0
+ *la valeur de la variable entiere est 2 si flag est égale a false ou -2 si true
  */
 public class Exercice4 {
     
     public static void launch(){
         
-        boolean flag = true;
+        boolean flag;
         int a = 0;
+        flag = true;
         
         if(!flag){
             a++;
         }else{
             a--;
         }
-        flag = false;
+        flag = !flag;
+        
         if(!flag){
             a++;
         }else{

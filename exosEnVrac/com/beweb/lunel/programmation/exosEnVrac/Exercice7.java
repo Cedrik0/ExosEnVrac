@@ -14,8 +14,10 @@ package com.beweb.lunel.programmation.exosEnVrac;
  */
 public class Exercice7 {
     public static void launch(){
+        
         String bjr = "bonjour";
         String bsr = "bonsoir";
+        
         boolean morning;
         if(morning = true){
             System.out.println(bjr + " vous");
