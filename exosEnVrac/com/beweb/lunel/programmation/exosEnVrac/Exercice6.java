@@ -17,6 +17,27 @@ package com.beweb.lunel.programmation.exosEnVrac;
  */
 public class Exercice6 {
     public static void launch(){
+        boolean[] booltab = new boolean[10];
         
+        int a = 0;
+        while(a < booltab.length){
+            booltab[a] = true;
+            a++;
+        }
+        a = 0;
+        while(a < booltab.length){
+            booltab[a] = false;
+            a++;
+        }
+        a = 0;
+        while (a < booltab.length){
+            booltab[a] = true;
+            System.out.println(booltab[a]);
+            a++;
+            
+            booltab[a] = false;
+            System.out.println(booltab[a]);
+            a++;
+        } 
     }
 }

@@ -13,6 +13,11 @@ package com.beweb.lunel.programmation.exosEnVrac;
  */
 public class Exercice5 {
     public static void launch(){
+        int compteur = 10;
+        while(compteur < 100){
+            compteur ++;
+            System.out.println(compteur);
+        }
         
     }
 }

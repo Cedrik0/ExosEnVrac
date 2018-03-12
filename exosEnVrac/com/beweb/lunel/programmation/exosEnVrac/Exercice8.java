@@ -14,6 +14,21 @@ package com.beweb.lunel.programmation.exosEnVrac;
  */
 public class Exercice8 {
     public static void launch(){
+        int a = 243;
+        
+        while(a != 0){
+            if(a%2 == 0){
+                System.out.println(a+ " est paire");
+            }
+            if(a%5 == 0){
+                System.out.println(a + " est un multiple de 5");
+            }
+            if(a%10 == 0){
+                System.out.println(a + " est un multiple de 10");
+            }
+            a--;
+        }
+        
         
     }
 }
