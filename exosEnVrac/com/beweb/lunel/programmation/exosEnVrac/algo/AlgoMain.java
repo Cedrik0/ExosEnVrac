@@ -5,6 +5,8 @@
  */
 package com.beweb.lunel.programmation.exosEnVrac.algo;
 
+import com.beweb.lunel.programmation.exosEnVrac.Exercice1;
+
 /**
  *
  * @author cedriclavery
@@ -15,7 +17,7 @@ public class AlgoMain {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Exercice1.launch();
     }
     
 }
