@@ -17,9 +17,10 @@ public class Exercice7 {
         
         String bjr = "bonjour";
         String bsr = "bonsoir";
-        
         boolean morning;
-        if(morning = true){
+        
+        morning = false;
+        if(morning){
             System.out.println(bjr + " vous");
         }else{
             System.out.println(bsr + " vous");
